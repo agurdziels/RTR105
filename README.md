@@ -33,4 +33,27 @@ Datormācība (pamatkurss) elektroniskā klade
 
 **'echo'** - attēlot uzrakstīto tekstu;
 
+**mkdir ManaMape** - izveidot direktoriju ar nosaukumu "ManaMape";
+
+**rmdir ManaMape** - dzēst tukšu direktoriju ar nosaukumu "ManaMape";
+
+**echo Pirmais teksts > aaa.txt** - uzrakstīt tekstu (dzēsot tekstu,kurš bija uzrakstīts šajā failā) 'Pirmais teksts' failā aaa.txt vai izveidot failu ar šo tekstu;
+
+**touch aaa.txt** - mainīt laika zīmi failam aaa.txt.Ja fails neeksistē, tad fails būs izveidots;
+
+**echo Otrais teksts >> aaa.txt** - uzrakstīt tekstu (nedzēsot tekstu,kurš bija uzrakstīts šajā failā) "Otrais teksts" failā aaa.txt vai izveidot failu ar šo tekstu;
+
+**nano aaa.txt** - atvert failu aaa.txt teksta redaktorā Nano;
+
+**cp aaa.txt bbb.txt** - kopēt failu aaa.txt direktorija, kur atrodas lietotājs ar nosaukumu bbb.txt ;
+
+**mv aaa.txt bbb.txt** - pārvietot failu aaa.txt direktorija, kur atrodas lietotājs ar nosaukumu bbb.txt ;
+
+**rm bbb.txt** - dzēst failu ar nosaukumu bbb.txt;
+
+**chmod** -nomainīt faila piekļuves tiesības;
+
+**gcc hello.c** -kompilēt failu "hello.c" ;
+
+'gcc hello.c -o hello'- kompilēt failu "hello.c" un nosaukt izpildamo failu "hello" ;
 
