@@ -57,13 +57,13 @@ Datormācība (pamatkurss) elektroniskā klade
 
 **'gcc hello.c -o hello'**- kompilēt failu "hello.c" un nosaukt izpildamo failu "hello" ;
 
-**'cat sss.text'** -
+**'cat sss.text'** - atver failu, parāda faila saturu;
 
-**'echo "6666" > sss.text'** - pārraksta faila saturu
+**'echo "6666" > sss.text'** - pārraksta faila saturu;
 
-**'echo "7890" >> sss.text'** - pievieno faila saturu
+**'echo "7890" >> sss.text'** - pievieno faila saturu;
 
-**'hexdump'** - 
+**'hexdump -c sss.txt'** - parāda faila saturu hexdecimalaja koda;
 
 **'nano aaa.txt'** - atvert failu aaa.txt teksta redaktorā Nano;
 
