@@ -87,9 +87,22 @@ Datormācība (pamatkurss) elektroniskā klade
 
 **'echo $?'** - attēlo koda pēdējās darbības rezultātu;
 
-#ASCII sakitīšanas sistēma
+##ASCII sakitīšanas sistēma
 
 Datora informācijas vienība -bits.
+
+[Skaitīšanas sistēmas](https://myoctocat.com/assets/images/base-octocat.svg)
+
+**'echo "6666" > sss.text'** - pārraksta faila saturu;
+
+**'echo "7890" >> sss.text'** - pievieno faila saturu;
+
+**'cat sss.txt'** - parādīt kodu;
+
+**'hexdump -C sss.txt'** - parāda faila saturu hexdecimalaja koda;
+
+
+**''** - ;
 
 
 
