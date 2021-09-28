@@ -91,7 +91,7 @@ Datormācība (pamatkurss) elektroniskā klade
 
 Datora informācijas vienība -bits.
 
-[Skaitīšanas sistēmas](https://myoctocat.com/assets/images/base-octocat.svg)
+[Skaitīšanas sistēmas](https://prnt.sc/1tz75yh)
 
 **'echo "6666" > sss.text'** - pārraksta faila saturu;
 
