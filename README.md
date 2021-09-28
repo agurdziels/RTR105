@@ -65,5 +65,35 @@ Datormācība (pamatkurss) elektroniskā klade
 
 **'hexdump -c sss.txt'** - parāda faila saturu hexdecimalaja koda;
 
-**'nano aaa.txt'** - atvert failu aaa.txt teksta redaktorā Nano;
+
+## C komandas 21.09.2021
+
+**'main() {}'** - minimums jebkuram kodam;
+
+**'nano sss.c'** - izveidot kodu redaktorā;
+
+**'cat sss.c'** - parādīt kodu;
+
+**'gcc -Wall sss.c -o sss.out'** - kompilēt kodu;
+
+**'gcc -Wall -save -temps sss.c -o sss.out'** - kompilēt kodu;
+
+**'./sss.out'** - izpildīt kodu;
+
+**'void main() {}'** - void - nekas netiks atgriezts;
+
+**'main() {return 0}'** - return - darbība, kas atgriež vērtību 0;
+**'int main() {return 0}'** - ;
+
+**'echo $?'** - attēlo koda pēdējās darbības rezultātu;
+
+#ASCII sakitīšanas sistēma
+
+Datora informācijas vienība -bits.
+
+
+
+
+
+
 
