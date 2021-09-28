@@ -87,11 +87,17 @@ Datormācība (pamatkurss) elektroniskā klade
 
 **'echo $?'** - attēlo koda pēdējās darbības rezultātu;
 
-##ASCII sakitīšanas sistēma
+## ASCII sakitīšanas sistēma
 
-Datora informācijas vienība -bits.
+Datora informācijas vienība - bits.
 
 [Skaitīšanas sistēmas](https://prnt.sc/1tz75yh)
+
+[Skaitīšanas sistēmas2](https://prnt.sc/1tz930l)
+
+[Dec <-> Hex, Hex -> Bin](https://prnt.sc/1tzaqe4)
+
+
 
 **'echo "6666" > sss.text'** - pārraksta faila saturu;
 
