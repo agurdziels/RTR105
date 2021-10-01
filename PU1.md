@@ -1,8 +1,8 @@
  #include <stdio.h>
- int main()
+  int main()
   {      
   long long int skaitlis1, skaitlis2, summa;
- 
+
   printf("Ievadi divus veselus skaitļus\n");
   scanf("%lld %lld", &skaitlis1, &skaitlis2);
         
