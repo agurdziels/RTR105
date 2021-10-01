@@ -1,6 +1,6 @@
  #include <stdio.h>
  int main()
- {      
+  {      
   long long int skaitlis1, skaitlis2, summa;
  
   printf("Ievadi divus veselus skaitļus\n");
@@ -10,4 +10,4 @@
         
   printf("%lld * %lld = %lld\n" , skaitlis1 , skaitlis2 , summa);
   return 0;
-}
+  }
