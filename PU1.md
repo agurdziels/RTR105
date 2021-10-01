@@ -1,9 +1,13 @@
-#include <stdio.h>
-int main()
- {      long long int skaitlis1, skaitlis2, summa;
+ #include <stdio.h>
+ int main()
+ {      
+        long long int skaitlis1, skaitlis2, summa;
+ 
         printf("Ievadi divus veselus skaitļus\n");
         scanf("%lld %lld", &skaitlis1, &skaitlis2);
+        
         summa = skaitlis1 * skaitlis2;
+        
         printf("%lld * %lld = %lld\n" , skaitlis1 , skaitlis2 , summa);
         return 0;
 }
