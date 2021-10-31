@@ -31,6 +31,7 @@ int main()
                 return 0;
             }
         }
+        printf("Ievadītā skaitļa faktoriāls: %d", int_rezultats);
      break;
      case 'c':
         scanf("%d", &char_skaitlis);
