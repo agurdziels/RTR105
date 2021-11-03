@@ -1,0 +1,35 @@
+#include<stdio.h>
+void f1()
+{
+    printf("Funkcija1 - bez argumenta un bez return \n");
+}
+
+void f2(int a)
+{
+    printf("Funkcija2 - ar argumentu, bez return \n");
+}
+
+int f3()//
+{
+    printf("Funkcija3 - bez argumentiem un ar return \n");
+    return 0;
+}
+
+int f4(int a)
+{
+    printf("Funkcija4 - ar argumentiem un ar return \n");
+    return 0;
+}
+
+int main()
+{
+ int a=5;
+ 
+ f1();
+
+ f2(a);
+
+ printf("%d\n",f3());
+
+ printf("%d\n",f4(a));
+}
