@@ -64,13 +64,13 @@ printf("\nIntegrāļa vērtība, izmantojot Simpsona metodi: %.2f\n", integr2);
 ```
 ### Rezultāts
 
-![Rezultāts](https://github.com/agurdziels/RTR105/blob/main/4.LD.%20integral/grafiks.png)
+![](https://github.com/agurdziels/RTR105/blob/main/4.LD.%20integral/rezult%C4%81ts.png)
 
 ### Wolfrmalpha rezultāts
 
-(https://raw.githubusercontent.com/agurdziels/RTR105/main/4.LD.%20integral/grafiks.png)
+![](https://github.com/agurdziels/RTR105/blob/main/4.LD.%20integral/wolframalpha.png)
 
 ### Grafiks
 
-![grafiks](https://user-images.githubusercontent.com/90239365/148620387-1ffd9ff9-294a-4363-a220-1a6810d4ef53.png)
+![](https://user-images.githubusercontent.com/90239365/148620387-1ffd9ff9-294a-4363-a220-1a6810d4ef53.png)
 
