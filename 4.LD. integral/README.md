@@ -72,5 +72,5 @@ printf("\nIntegrāļa vērtība, izmantojot Simpsona metodi: %.2f\n", integr2);
 ```
 ### Grafiks
 ```
-!.[Funkcijas grafiks].(https://github.com/agurdziels/RTR105/blob/main/4.LD.%20integral/grafiks.png)
+![Funkcijas grafiks](https://github.com/agurdziels/RTR105/blob/main/4.LD.%20integral/grafiks.png)
 ```
