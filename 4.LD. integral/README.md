@@ -1,3 +1,4 @@
+![Screenshot_8](https://user-images.githubusercontent.com/90239365/148620453-597905ac-4c2b-4415-a623-a4b975545334.png)
 # 4.LD integral
 
 ### Uzrakstītais kods
