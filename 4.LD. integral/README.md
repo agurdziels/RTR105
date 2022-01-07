@@ -72,5 +72,5 @@ printf("\nIntegrāļa vērtība, izmantojot Simpsona metodi: %.2f\n", integr2);
 ```
 ### Grafiks
 ```
-[exp(x)grafiks](4.LD.integral/wolframalpha.png)
+[Skaitīšanas sistēmas](https://prnt.sc/1tz75yh))
 ```
