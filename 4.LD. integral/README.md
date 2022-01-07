@@ -1,6 +1,6 @@
 # 4.LD integral
 
-### Uzrakstītais kods
+### Uzrakstītais kods:
 ```
 #include<stdio.h>
 #include<math.h>
@@ -62,15 +62,15 @@ while(fabs(integr2-integr1)>eps)
 printf("\nIntegrāļa vērtība, izmantojot Simpsona metodi: %.2f\n", integr2);
 }
 ```
-### Rezultāts
+### Rezultāts:
 
 ![](https://github.com/agurdziels/RTR105/blob/main/4.LD.%20integral/rezult%C4%81ts.png)
 
-### Wolfrmalpha rezultāts
+### Wolframalpha rezultāts:
 
 ![](https://github.com/agurdziels/RTR105/blob/main/4.LD.%20integral/wolframalpha.png)
 
-### Grafiks
+### Grafiks:
 
 ![](https://user-images.githubusercontent.com/90239365/148620387-1ffd9ff9-294a-4363-a220-1a6810d4ef53.png)
 
