@@ -68,9 +68,9 @@ printf("\nIntegrāļa vērtība, izmantojot Simpsona metodi: %.2f\n", integr2);
 ```
 ### Wolfrmalpha rezultāts
 ```
-(https://github.com/agurdziels/RTR105/blob/main/4.LD.%20integral/grafiks.png)
+(https://raw.githubusercontent.com/agurdziels/RTR105/main/4.LD.%20integral/grafiks.png)
 ```
 ### Grafiks
 ```
-![Funkcijas grafiks](https://github.com/agurdziels/RTR105/blob/main/4.LD.%20integral/grafiks.png)
+![Funkcijas grafiks](https://raw.githubusercontent.com/agurdziels/RTR105/main/4.LD.%20integral/grafiks.png)
 ```
