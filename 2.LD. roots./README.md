@@ -45,5 +45,6 @@ return 0;
 ### Rezultāts:
 ![rezultāts2 2](https://user-images.githubusercontent.com/90239365/148660782-90609517-5163-49a5-a699-1c7a531dcae9.png)
 ### Grafiks:
-![grafiks2 2](https://user-images.githubusercontent.com/90239365/148660789-46b89e10-76e8-4fd8-b4c7-66fc7c8728ee.png)
+![grafiks2 3](https://user-images.githubusercontent.com/90239365/148660827-2c65f244-361d-4177-877d-7a9160d4a82a.png)
+
 
