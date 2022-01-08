@@ -1,86 +1,49 @@
 # 2.LD roots
 
-### Uzrakstītais kods
+### Uzrakstītais kods:
 ```
-#include<stdio.h>
-#include<math.h>
+#include <stdio.h>
+#include <math.h>
 
 int main()
 {
- float a,c ,b ,x ,delta_x,funkca, funkcb, funkcx;
- int i=0;
+float a, b, c, x, delta_x, funkca, funkcb;
+int i=0;
 
-  printf("Funkcijas saknes aprēķināšana: \n");
+printf("Ievadi min robežas vērtību: ");
+scanf("%f", &a);
 
-  printf("Ievadi sākuma robežu: ");
-  scanf ("%f", &a);
+printf("Ievadi max robežas vērtību: ");
+scanf("%f", &b);
 
-  printf("Ievadi beigas robežu: ");
-  scanf ("%f", &b);
+printf("Ievadi kādai c vērtībai aprēķināt x pēc vienādojuma - exp(x)=c: ");
+scanf("%f", &c);
 
-  printf("Ievadi precizitāti: ");
-  scanf ("%e", &delta_x);
+printf("Ievadi ar kādu precizitāti aprēķināt: ");
+scanf("%f", &delta_x);
 
-  printf("Norādi kādam y vēlies aprēķināt x: ");
-  scanf ("%f", &c);
-  funkca = exp(a) - c; 
-  funkcb = exp(b) - c;
+funkca = exp(x)-c;
+funkcb = exp(x)-c;
 
-  printf("exp(%7.3f) - %7.3f=%7.3f\t",a,a,c,funkca);
-  printf("exp(%7.3f) - %7.3f=%7.3f\n",b,b,c,funkcb);
+while((b-a)>delta_x)
+    {
+    x=(a+b)/2.;
+    if(funkca*(exp(x)-c)>0)
+    a=x;
+    else
+    b=x;
+    i++;
+    }
 
- while ((b-a)>delta_x){
-  x = (a+b)/2.;
-  if(funkca*(exp(x)-c)>0)
-   a = x;
-  else
-   b = x;
-  printf("exp(%7.3f) - %7.3f=%7.3f\t",a,a,c,funkca);
-  printf("exp(%7.3f) - %7.3f=%7.3f\t",b,b,c,funkcb);
-  printf("exp(%7.3f) - %7.3f=%7.3f\n",x,x,c,exp(x)-c);
-   i++;
- }
+printf("\nNorādītajā intervālā c = %.2f atrodas pie x=%.2f, jo exp(%.2f) = %.2f\n",c,x,x,exp(x));
+printf("Iterāciju skaits, lai aprēķinātu šo x vērtību ar uzdoto precizitāti: %d\n", i);
 
- printf("\nIteraciju skaits: %d\n",i);
- printf("Sakne atrodas pie x=%.5f, jo exp(x) ir %.3f\n",x, exp(x));
- return 0;
+return 0;
 }
 ```
 
-### Rezultāts
-```
-Funkcijas saknes aprēķināšana: 
-Ievadi sākuma robežu: 0
-Ievadi beigas robežu: 20
-Ievadi precizitāti: 1.e-5
-Norādi kādam y vēlies aprēķināt x: 10
-exp(  0.000) -   0.000= 10.000  exp( 20.000) -  20.000= 10.000
-exp(  0.000) -   0.000= 10.000  exp( 10.000) -  10.000= 10.000  exp( 10.000) -  10.000= 10.000
-exp(  0.000) -   0.000= 10.000  exp(  5.000) -   5.000= 10.000  exp(  5.000) -   5.000= 10.000
-exp(  0.000) -   0.000= 10.000  exp(  2.500) -   2.500= 10.000  exp(  2.500) -   2.500= 10.000
-exp(  1.250) -   1.250= 10.000  exp(  2.500) -   2.500= 10.000  exp(  1.250) -   1.250= 10.000
-exp(  1.875) -   1.875= 10.000  exp(  2.500) -   2.500= 10.000  exp(  1.875) -   1.875= 10.000
-exp(  2.188) -   2.188= 10.000  exp(  2.500) -   2.500= 10.000  exp(  2.188) -   2.188= 10.000
-exp(  2.188) -   2.188= 10.000  exp(  2.344) -   2.344= 10.000  exp(  2.344) -   2.344= 10.000
-exp(  2.266) -   2.266= 10.000  exp(  2.344) -   2.344= 10.000  exp(  2.266) -   2.266= 10.000
-exp(  2.266) -   2.266= 10.000  exp(  2.305) -   2.305= 10.000  exp(  2.305) -   2.305= 10.000
-exp(  2.285) -   2.285= 10.000  exp(  2.305) -   2.305= 10.000  exp(  2.285) -   2.285= 10.000
-exp(  2.295) -   2.295= 10.000  exp(  2.305) -   2.305= 10.000  exp(  2.295) -   2.295= 10.000
-exp(  2.300) -   2.300= 10.000  exp(  2.305) -   2.305= 10.000  exp(  2.300) -   2.300= 10.000
-exp(  2.302) -   2.302= 10.000  exp(  2.305) -   2.305= 10.000  exp(  2.302) -   2.302= 10.000
-exp(  2.302) -   2.302= 10.000  exp(  2.303) -   2.303= 10.000  exp(  2.303) -   2.303= 10.000
-exp(  2.302) -   2.302= 10.000  exp(  2.303) -   2.303= 10.000  exp(  2.303) -   2.303= 10.000
-exp(  2.303) -   2.303= 10.000  exp(  2.303) -   2.303= 10.000  exp(  2.303) -   2.303= 10.000
-exp(  2.303) -   2.303= 10.000  exp(  2.303) -   2.303= 10.000  exp(  2.303) -   2.303= 10.000
-exp(  2.303) -   2.303= 10.000  exp(  2.303) -   2.303= 10.000  exp(  2.303) -   2.303= 10.000
-exp(  2.303) -   2.303= 10.000  exp(  2.303) -   2.303= 10.000  exp(  2.303) -   2.303= 10.000
-exp(  2.303) -   2.303= 10.000  exp(  2.303) -   2.303= 10.000  exp(  2.303) -   2.303= 10.000
-exp(  2.303) -   2.303= 10.000  exp(  2.303) -   2.303= 10.000  exp(  2.303) -   2.303= 10.000
+### Rezultāts:
+![Rezultats2](https://user-images.githubusercontent.com/90239365/148659708-a66230cf-53b1-4775-855b-050281bbcf0b.png)
+### Grafiks:
+![grafiks2](https://user-images.githubusercontent.com/90239365/148659715-c96ce9e4-1799-4ad8-b5d8-a22196154505.png)
 
-Iteraciju skaits: 21
-Sakne atrodas pie x=2.303, jo exp(x) ir 10.000
-```
-### Grafiks
-```
-![Funkcijas grafiks:]
-```
