@@ -43,6 +43,7 @@ return 0;
 ```
 
 ### Rezultāts:
-![Rezultats2](https://user-images.githubusercontent.com/90239365/148659708-a66230cf-53b1-4775-855b-050281bbcf0b.png)
+![rezultāts2 2](https://user-images.githubusercontent.com/90239365/148660782-90609517-5163-49a5-a699-1c7a531dcae9.png)
 ### Grafiks:
+![grafiks2 2](https://user-images.githubusercontent.com/90239365/148660789-46b89e10-76e8-4fd8-b4c7-66fc7c8728ee.png)
 
