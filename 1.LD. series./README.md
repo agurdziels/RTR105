@@ -2,14 +2,70 @@
 
 ### Uzrakstītais kods
 ```
+#include <stdio.h>
+#include <math.h>
 
+int main() 
+{
+long double a499, a500;
+double x, a0, s0, s499, s500, teil;
+int k=0;
+
+printf("Dotā funkcija exp(x)!\n");
+printf("Ievadiet x vērtību: ");
+scanf("%lf", &x);
+
+printf("\nDotās funkcijas summas izteiksme: \n\n");
+printf("               500\n");
+printf("              _____\n");
+printf("              %c           k  \n",92);
+printf("               %c        x   \n",92);
+printf("exp(%.2lf) =     >    _______ \n", x);
+printf("               /\n");
+printf("              /____     k!   \n");
+printf("               k=0\n\n");
+
+//definīcijas apgabals x∈R
+
+printf("Dotās funkcijas rekurences funkcionālā reizinātāja izteiksme: \n\n");
+printf("       x\n");
+printf("R =  _____\n");
+printf(" \n");
+printf("       k \n\n");
+
+a0 = pow(x,0)/(1);
+s0 = a0;
+printf("a0 = %.2lf\tS0 = %.2lf\n", a0,s0);
+
+
+a499 = a0;
+s499 = s0;
+
+while(k<499)
+    {
+    k++;
+    a499 *= x/k;
+    s499 += a499;
+    }
+printf("a499 = %Le\ts499 = %lf\n", a499, s499);//
+
+
+a500 = a499 * x/500;//
+s500 = s499 + a500;
+printf("a500 = %Le\ts500 = %lf\n", a500, s500);//
+
+teil = s500;
+printf("Funkcijas vērtība aprēķinot, izmantojot, Teilora rindas izteiksmi: %lf\n", teil);
+
+double f1 = exp(x);
+printf("Funkcijas vērtība aprēķinot, izmantojot, funkcijas izteiksmi: %lf\n", f1);
+
+return 0;
+}
 ```
 ### Rezultāts
-```
-
-
-
-```
+![rezultats1](https://user-images.githubusercontent.com/90239365/148692660-b349202c-4bae-41a5-8779-96f59a34ef84.png)
 ### Grafiks
-![grafiks1](https://user-images.githubusercontent.com/90239365/148683480-946bfba1-fc99-442e-bb79-0f2da0c9912a.png)
+![grafiks1 1](https://user-images.githubusercontent.com/90239365/148692663-5ff5149c-a83c-4ed3-9325-99072b2aa6a8.png)
+
 
