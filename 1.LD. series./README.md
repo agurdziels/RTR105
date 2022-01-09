@@ -64,7 +64,7 @@ return 0;
 }
 ```
 ### Rezultāts
-![rezultats1](https://user-images.githubusercontent.com/90239365/148692660-b349202c-4bae-41a5-8779-96f59a34ef84.png)
+![rezultats1](https://user-images.githubusercontent.com/90239365/148692720-0c7d3afb-d599-4218-82b3-cc9a2ed91342.png)
 ### Grafiks
 ![grafiks1 1](https://user-images.githubusercontent.com/90239365/148692663-5ff5149c-a83c-4ed3-9325-99072b2aa6a8.png)
 
