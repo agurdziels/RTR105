@@ -8,7 +8,7 @@
 void main()
 {
 float a, b, eps, h, integr1=0., integr2;
-int k, n=2;
+int k, i, n=2;
 
 printf("Ievadi min robežas vērtibu: ");
 scanf("%f", &a);
@@ -30,6 +30,7 @@ while(fabs(integr2-integr1)>eps)
     integr2 += h*exp(a+(k+0.5)*h);
     }
 printf("\nIntegrāļa vērtība, izmantojot taisnstūru metodi: %.2f\n", integr2);
+printf("Izpildīto ciklu skaits dotās metodes aprēķinā: %.2d\n", k);
 
 n = 2;
 integr1 = 0;
@@ -44,7 +45,7 @@ while(fabs(integr2-integr1)>eps)
     integr2 += h*((exp(a+k*h)+exp(a+(k+1)*h))/2);
     }
 printf("\nIntegrāļa vērtība, izmantojot trapeču metodi: %.2f\n", integr2);
-
+printf("Izpildīto ciklu skaits dotās metodes aprēķinā: %.2d\n", k);
 n = 2;
 integr1 = 0;
 integr2 = ((b-a)*(exp(a)+exp(b))/n)+2*eps;
@@ -54,14 +55,15 @@ while(fabs(integr2-integr1)>eps)
     h = (b-a)/n;
     integr1 = integr2;
     integr2 = 0;
-    for(k=1; k<=n/2-1; k++)
+    for(i=1; i<=n/2-1; i++)
         {
-        integr2 += 2*(2*exp((a+(2*k-1)*h))+exp((a+2*k*h)));
+        integr2 += 2*(2*exp((a+(2*i-1)*h))+exp((a+2*i*h)));
         }
     integr2 += exp(a)+exp(b)+4*exp((b-h)/2);
     integr2 *= h/3;
     }
 printf("\nIntegrāļa vērtība, izmantojot Simpsona metodi: %.2f\n", integr2);
+printf("Izpildīto ciklu skaits dotās metodes aprēķinā: %.2d\n", i);
 }
 ```
 ### Rezultāts:
