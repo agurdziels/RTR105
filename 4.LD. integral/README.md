@@ -59,7 +59,7 @@ while(fabs(integr2-integr1)>eps)
         {
         integr2 += 2*(2*exp((a+(2*i-1)*h))+exp((a+2*i*h)));
         }
-    integr2 += exp(a)+exp(b)+4*exp((b-h)/2);
+    integr2 += exp(a)+exp(b)+4*exp(b-h);
     integr2 *= h/3;
     }
 printf("\nIntegrāļa vērtība, izmantojot Simpsona metodi: %.2f\n", integr2);
