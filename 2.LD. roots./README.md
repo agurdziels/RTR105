@@ -23,8 +23,15 @@ scanf("%f", &c);
 printf("Ievadi ar kādu precizitāti aprēķināt: ");
 scanf("%f", &delta_x);
 
-funkca = exp(x)-c;
-funkcb = exp(x)-c;
+funkca = exp(a)-c;
+funkcb = exp(b)-c;
+
+if(funkca*funkcb>0)
+    {
+    printf("Norādītajā intervālā exp(x) funkcijai ");
+    printf("nav c = %f vērtība(vai tajā ir pāra c vērtību skaits)\n", c);
+    return 1;
+    }
 
 while((b-a)>delta_x)
     {
@@ -37,15 +44,15 @@ while((b-a)>delta_x)
     }
 
 printf("\nNorādītajā intervālā c = %.2f atrodas pie x=%.2f, jo exp(%.2f) = %.2f\n",c,x,x,exp(x));
-printf("Iterāciju skaits, lai aprēķinātu šo x vērtību ar uzdoto precizitāti: %d\n", i);
+printf("Iterāciju skaits, lai aprēķinātu šo x vērtību ar uzdoto precizitāti: %d\n",i);
 
 return 0;
 }
 ```
 
 ### Rezultāts:
-![rezultats2 3](https://user-images.githubusercontent.com/90239365/148660850-c361eac7-764d-4bbc-a188-339d31d3bfbe.png)
+![rezultats2](https://user-images.githubusercontent.com/90239365/149572246-6c60c13b-550b-4dde-9b89-05c7eac7bf63.png)
 ### Grafiks:
-![grafiks2 3](https://user-images.githubusercontent.com/90239365/148660827-2c65f244-361d-4177-877d-7a9160d4a82a.png)
+![grafiks2](https://user-images.githubusercontent.com/90239365/149572257-0d86b2be-cb25-4d71-aec8-63806d2a4742.png)
 
 
