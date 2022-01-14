@@ -1,4 +1,5 @@
 # 1.LD series
+Šajā labratorijas darbā tika realizēta programma, kas izmanto skaitlisko metodi - Teilora rindas, lai aprēķinātu funkcijas vērtību kādā punktā. Teilora rindas dod iespēju efektīvāk aprēķināt funkcijas vērtību, izmantojot rekurences izteiksmi dotajai funkcijai, manā gadījumā exp(x) funkcijai. Manas funkcijas grafikā var novērot, ka pieaugot Teilora rindas kārtas skaitlim, funkcija arvien garāku gabalu ir vienāda ar pētāmo funkciju.
 
 ### Uzrakstītais kods
 ```
