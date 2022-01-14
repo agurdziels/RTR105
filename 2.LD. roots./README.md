@@ -49,10 +49,10 @@ printf("Iterﾄ…iju skaits, lai aprﾄ篤ｷinﾄ》u ﾅ｡o x vﾄ途tﾄｫbu ar uzdoto precizitﾄ
 return 0;
 }
 ```
-
-### Rezultﾄ》s:
-![rezultats2](https://user-images.githubusercontent.com/90239365/149572246-6c60c13b-550b-4dde-9b89-05c7eac7bf63.png)
+# Rezultﾄ》s:
+![rez2](https://user-images.githubusercontent.com/90239365/149573053-8b666879-035f-4c74-aba1-85895358835e.png)
 ### Grafiks:
-![grafiks2](https://user-images.githubusercontent.com/90239365/149572257-0d86b2be-cb25-4d71-aec8-63806d2a4742.png)
+![graf2](https://user-images.githubusercontent.com/90239365/149573060-95867c74-2417-428f-beb1-bb62e2c82285.png)
+
 
 
