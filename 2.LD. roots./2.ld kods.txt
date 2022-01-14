@@ -1,0 +1,45 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+float a, b, c, x, delta_x, funkca, funkcb;
+int i=0;
+
+printf("Ievadi min robežas vērtību: ");
+scanf("%f", &a);
+
+printf("Ievadi max robežas vērtību: ");
+scanf("%f", &b);
+
+printf("Ievadi kādai c vērtībai aprēķināt x pēc vienādojuma - exp(x)=c: ");
+scanf("%f", &c);
+
+printf("Ievadi ar kādu precizitāti aprēķināt: ");
+scanf("%f", &delta_x);
+
+funkca = exp(a)-c;
+funkcb = exp(b)-c;
+
+if(funkca*funkcb>0)
+    {
+    printf("Norādītajā intervālā exp(x) funkcijai ");
+    printf("nav c = %f vērtība(vai tajā ir pāra c vērtību skaits)\n", c);
+    return 1;
+    }
+
+while((b-a)>delta_x)
+    {
+    x=(a+b)/2.;
+    if(funkca*(exp(x)-c)>0)
+    a=x;
+    else
+    b=x;
+    i++;
+    }
+
+printf("\nNorādītajā intervālā c = %.2f atrodas pie x=%.2f, jo exp(%.2f) = %.2f\n",c,x,x,exp(x));
+printf("Iterāciju skaits, lai aprēķinātu šo x vērtību ar uzdoto precizitāti: %d\n",i);
+
+return 0;
+}
