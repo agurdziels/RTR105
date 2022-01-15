@@ -1,5 +1,5 @@
 # 5.LD statistics
-Šajā labratorijas darbā tika realizēta programma, kas šķiro lietotāja ievadīto simbolu rindu, un nosaka rindas statistiku. Programmas svarīgāka daļa ir masīvi, kas dod iespēju efektīvi darboties, šķirot un veikt statistiku ar datiem, kā arī cikli, kas veic statistikas apstrādi.
+Šajā labratorijas darbā tika realizēta programma, kas šķiro lietotāja ievadīto simbolu rindu, un nosaka rindas statistiku pēc ASCII simbolu vērtības tabulas. Programmas svarīgāka daļa ir datu masīvi, kas dod iespēju efektīvi darboties, šķirot un veikt statistiku ar datiem, kā arī cikli, kas veic statistikas apstrādi.
 ### Uzrakstītais kods
 ```
 #include<stdio.h>
