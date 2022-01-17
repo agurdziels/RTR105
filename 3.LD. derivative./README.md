@@ -1,5 +1,5 @@
 # 3.LD derivative
-Šajā labratorijas darbā tika realizēta programma, kas aprēķina funkcijas pirmās un otrās kārtas atvasinājumu ar ierastajām analītiskajām formulām un ar diferencēšanu uz priekšu.
+Šajā labratorijas darbā tika realizēta programma, kas aprēķina funkcijas pirmās un otrās kārtas atvasinājumu ar ierastajām analītiskajām formulām un ar diferencēšanu uz priekšu. Analīzejot rezultātus no tabulas un grafika var secināt, ka pastāv niecīga atšķirība starp metodēm, bet pieaugot x vērtībām atšķirība pieaug. Tā kā exp(x) jebkuras kārtas atvasinājums ir exp(x), atvasinājumus ir grūtāk izpētīt grafikā, jo tie pārklājas ar pašas funkcijas grafiku.
 ## Uzrakstītais kods
 ```
 #include<stdio.h>
