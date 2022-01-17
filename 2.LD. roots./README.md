@@ -1,5 +1,5 @@
 # 2.LD roots
-Šajā labratorijas darbā tika realizēta programma, kas ar Dihotomijas metodi atrod funkcijas saknes, lietotāja izvēlētā intervālā. No šīs metodes izriet izteiksme f(x)-C=0. Koda svarīgākā daļa ir while cikls, kurš arī realizē Dihotomijas metodes algoritmu - pirmstam minēto izteiksmi. Rezultātā ieguvu patiesu sakni, kura sakrita ar funkcijas grafiku. 
+Šajā labratorijas darbā tika realizēta programma, kas ar Dihotomijas metodi atrod funkcijas saknes, lietotāja izvēlētā intervālā. No šīs metodes izriet izteiksme f(x)-C=0, kura arī tiek realizēta kodā. Koda svarīgākā daļa ir while cikls, kurš arī realizē Dihotomijas metodes algoritmu - pirmstam minēto izteiksmi. Rezultātā ieguvu patiesu sakni, kura sakrita ar funkcijas grafiku. 
 
 ### Uzrakstītais kods:
 ```
