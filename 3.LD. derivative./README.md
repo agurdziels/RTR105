@@ -1,5 +1,5 @@
 # 3.LD derivative
-
+Šajā labratorijas darbā tika realizēta programma, kas aprēķina funkcijas pirmās un otrās kārtas atvasinājumu ar ierastajām analītiskajām formulām un ar diferencēšanu uz priekšu.
 ## Uzrakstītais kods
 ```
 #include<stdio.h>
