@@ -1,5 +1,5 @@
 # 4.LD integral
-Šajā labratorijas darbā tika realizēta programma, kas aprēķina integrāļa vērtību ar taisnstūra, trapeču un Simpsona metodi. Ievērojama atšķirība bija veikto ciklu skaitā, kas tika izpildīti, lai aprēķinātu integrāli. Iegūtais integrālis sakrita ar wolframalpha rezultātu.
+Šajā labratorijas darbā tika realizēta programma, kas aprēķina integrāļa vērtību ar taisnstūra, trapeču un Simpsona metodi. Ievērojama atšķirība bija veikto ciklu skaitā, kas tika izpildīti, lai aprēķinātu integrāli. Koda svarīgāka daļa nepārprotami ir cikli, katras metodes aprēķināšanai. Iegūtais integrālis sakrita ar wolframalpha rezultātu.
 ### Uzrakstītais kods:
 ```
 #include<stdio.h>
