@@ -68,7 +68,7 @@ printf("Izpildīto ciklu skaits dotās metodes aprēķinā: %.2d\n", i);
 ```
 ### Rezultāts:
 
-![](https://github.com/agurdziels/RTR105/blob/main/4.LD.%20integral/rezult%C4%81ts.png)
+![rez4](https://user-images.githubusercontent.com/90239365/150418915-c70ae576-5e85-46b5-b05f-dfdf71015893.png)
 
 ### Wolframalpha rezultāts:
 
