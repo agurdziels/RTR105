@@ -89,5 +89,6 @@ void main()
 }
 ```
 ### Rezultāts
-![rezultats5 1](https://user-images.githubusercontent.com/90239365/149633652-5bb76721-df92-4021-9826-8f49c3363b9e.png)
+![rez5](https://user-images.githubusercontent.com/90239365/150415943-88076039-46f7-499c-b776-5aea61de1dce.png)
 ### Grafiks
+![grafiks5](https://user-images.githubusercontent.com/90239365/150415952-b5cc1c50-ba86-4a8f-8897-3f893e209d4e.png)
